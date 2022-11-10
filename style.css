@@ -1,0 +1,159 @@
+.menu{
+	background: #fcafde(0,0,0, 0.5);
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-family: 'PT Mono', monospace;
+}
+.menu a{
+	color: #000;
+	text-decoration: none;
+	padding: 20px 30px;
+	display: inline-block;
+}
+.menu>div{
+	display: inline-block;
+	position: relative;
+}
+.menu>div>div{
+	position: absolute;
+	background:  (0,0,0, 0.5);
+	display: none;
+}
+.menu>div>div a{
+	display: block;
+}
+.menu>div:hover>div{
+	display: block;
+}
+body{
+background: url("img/background.png");
+}
+.back
+{
+	height: auto;
+	width: auto;
+}
+.menu a:hover{
+	background:#fcafde/*#604F56*/;
+}
+.img{
+	padding: 100px 0;
+	background-size: 100% auto;
+	font-family: 'PT Mono', monospace;
+	color: #fff;
+	text-align: left;
+}
+h1{
+	font-family: 'Amatic SC', cursive;
+	color: #000;
+	text-align: center;
+	font-size: 50px;
+}
+body{
+	margin: 0;
+}
+h2{
+
+	color: #000;
+	text-align: center;
+	font-family: 'PT Mono', monospace;
+	font-size: 30px;
+}
+.dog h1{
+	color: #C9AC8C
+}
+.photo{
+	width: 800px;
+	height: 600px;
+	text-align: left;
+	border: 1px #fff solid;
+}
+h3{
+	color: #000;
+	text-align: center;
+	font-family: 'PT Mono', monospace;
+}
+h4{
+	color: #000;
+	text-align: center;
+	font-family: 'Times New Roman', monospace;
+	font-weight: normal;
+    font-size: 30px;
+}
+.con{
+	text-align: center;
+	margin: auto;
+	border: 1px #fff solid;
+}
+.con td{
+	border: 1px #fff solid;
+	padding: 5px;}
+.photo td{
+	border: 1px #fff solid;
+	padding: 5px;
+}
+.menu2 a{
+	color: #fff;
+	font-family: 'PT Mono', monospace;
+	text-align: center;
+	text-decoration: none;
+}
+img{
+	text-align: center;
+	float: left;
+	margin-right: 2px;
+	height: 30%;
+	width: 30%;
+	border: 3px #fff solid;
+}
+.dog h3{
+	    color: #000;
+    font-family: 'PT Mono', monospace;
+    text-align: left;
+    font-weight: normal;
+    font-size: 25px;
+}
+.dog b{
+	color: #000;
+	font-family:'PT Mono', monospace;
+	text-align: center;
+}
+.menu2 a{
+	color: #C9AC8C;
+	font-family:'PT Mono', monospace;
+	text-align: center;
+	text-decoration: none;
+}
+.menu2 a h2{
+	color: #C9AC8C;
+    font-size: 20px;
+    margin: 6px;
+}
+.menu2 a h2:hover{
+	color: #604F56;
+	background: #C9AC8C;
+	
+}
+p{
+	color: #000;
+	font-family: 'PT Mono', monospace;
+}
+
+.kolonka1{
+	width: 25%;
+	float: left;
+	margin-right: 1%
+}
+
+.kolonka2{
+	width: 74%;
+	float: left;
+	margin-left: 15%;
+}
+.menu2{
+	position: fixed;
+}
+
